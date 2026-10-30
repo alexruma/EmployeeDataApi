@@ -1,0 +1,31 @@
+
+
+
+Table Employees:    
+|Column name| 	type   		| Constraints|
+EmployeeId    	Int      	Primary key, identity
+FirstName    	VARCHAR		 Not NULL	
+LastName		VARCHAR		 Not NULL	
+Address1
+WageId			Int			Foriegn Key Not NULL
+EmployeeType    CHAR		Constraints for allowed value (E, M, S) Not NULL
+ExpenseId       int         foriegn key
+
+
+Table Wages:
+|Column name| 	type   		| Constraints|
+WageId			int			 identity, primary key
+SalaryEmployee  bit          
+AnnualSalary    Decimal(10,2)
+PayPerHour      decimal (5,2)
+
+
+Table Expenses:
+ExpenseId      		int			Primary key, identity
+MaxExpenseAmount    decimal(10,2)
+
+
+
+
+
+
